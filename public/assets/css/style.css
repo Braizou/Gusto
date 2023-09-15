@@ -8,6 +8,7 @@ html{
 /* Style Navbar */
 header nav {
     padding: 1em 8em;
+    font-weight: 800;
 }
 header nav {
     display: flex;
@@ -19,7 +20,7 @@ header h5 {
     color: black;
     font-size: medium;
     font-weight: 800;
-    margin: 5px;
+    margin: 15px;
 }
 header .logo {
     display: flex;
@@ -50,7 +51,7 @@ header .btn-nav {
     color: white;
     border-radius: 2em;
     width: auto;
-    font-weight: 800;
+    font-weight: 200;
     padding: 0.5em 1em;
     font-size: 1em;
 }
