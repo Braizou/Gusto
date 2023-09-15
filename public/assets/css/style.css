@@ -98,6 +98,7 @@ header .overlay {
 .propos{
     background-color: #900000;
     padding: 3em;
+    padding-top: 2em;
 }
 #apropos .titreapropos{
     width: 100%;
