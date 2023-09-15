@@ -181,18 +181,12 @@ header .overlay {
 /* Style Footer */
 #reservation {
     background-color: #900000;
-    padding-bottom:40px;
-    padding-top: 30px;;
     font-family: 'Montserrat', sans-serif;
 }
 
 
 .formcss{
-    background-color:white;
-    border-radius: 30px;
-    color: black;
     font-weight:bold ;
-    margin:20px auto;
     font-family: 'Montserrat', sans-serif;
     
 }
