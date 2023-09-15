@@ -214,11 +214,9 @@ header .overlay {
 } 
 
 .formcss{
-    width: 40%;
-    text-align:start;
+    /* width: 90%; */
     background-color:white;
     border-radius: 30px;
-    padding: 50px;
     color: black;
     font-weight:bold ;
     margin:20px auto;
@@ -231,19 +229,16 @@ header .overlay {
     margin-bottom: 5em;
 
 }
-#reservation h2{
+#reservation h1{
     margin-bottom: 0;
     font-size: 2.5em;
     text-align: center;
     color: white;
 }
-div.form-button{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.button-form{
     height: 35px;
-}
+    background-color: white;
+} 
 footer .bg-input {
     width: 330px;
     background-color: #d9d9d9;

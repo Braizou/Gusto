@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<!-- header -->
+<!-- header
 <header>
     <div class="header">
         <nav>
@@ -33,7 +33,7 @@
             <h3>Goûtez à l'art italien</h3>
         </div>
     </div>
-</header>
+</header> -->
 <!-- FIN header -->
 <!-- main -->
 <main>
@@ -82,50 +82,102 @@
 <!-- footer -->
 <footer>
     <!-- debut conteneur parent -->
-    <section id="reservation">
-    <h2>Réservation</h2>
-    <!-- ajout conteneur enfant -->
-    <div class="formcss">
-    <!-- formulaire debut -->
-        <form method="get" action=""> 
-            <!-- debut listing formulaire -->
-            <!-- premier ligne + champ de saisie -->
-        <div class="form-button">
-            <label for="numberpeople">Nombre de personnes :</label>
-            <input class="bg-input" type="text" name="numberpeople" id="numberpeople" placeholder="Combien êtes vous?">
+    <div class="container-fluid" id="reservation">
+        <div class="row">
+            <div class="col-12">
+                <h1>Reservation</h1>
+            </div>
         </div>
-            <!-- deuxieme ligne + champ de saisie -->
-        <div class="form-button">
-            <label for="date">Date :</label>
-            <input class="bg-input" type="text" name="date" id="date" placeholder="ex:lundi 12 juillet">
+        <div class="row justify-content-center text-center formcss">
+            <div class="col-8">
+                <label for="number" class="form-label-sm col-12">Nombre de personne</label>
+                <input type="number" name="number" id="number" class="form-control-sm" placeholder="Combien êtes-vous?">
+            </div>
+            <div class="col-8">
+                <label for="date" class="form-label-sm">Date</label>
+                <input type="date" name="date" id="date" class="form-control-sm" placeholder="ex:lundi 12 juillet">
+            </div>
+            <div class="col-8">
+                <label for="number" class="form-label-sm">Horaire</label>
+                <input type="number" name="number" id="number" class="form-control-sm" placeholder="ex:15h00">
+            </div>
+            <div class="col-8">
+                <label for="name" class="form-label-sm">Nom</label>
+                <input type="name" name="name" id="name" class="form-control-sm" placeholder="Ton nom de famille">
+            </div>
+            <div class="col-8">
+                <label for="name" class="form-label-sm">Prénom</label>
+                <input type="name" name="name" id="name" class="form-control-sm" placeholder="Ton prénom">
+            </div>
+            <div class="col-8">
+                <label for="number" class="form-label-sm col-12">Numéro de téléphone</label>
+                <input type="number" name="number" id="number" class="form-control-sm" placeholder="Ton numéro de téléphone">
+            </div>
         </div>
-            <!-- troisieme ligne + champ de saisie -->
-        <div class="form-button">
-            <label for="hours">Horaire :</label>
-            <input class="bg-input" type="text" name="hours" id="hours" placeholder="ex:15h00">
+        <div class="row">
+            <div class="col-12 text-center">
+                <button class="btn rounded text-bg-light">Envoyer</button>
+            </div>
         </div>
-            <!-- quatrieme ligne + champ de saisie -->
-        <div class="form-button">
-            <label for="name">Nom :</label>
-            <input class="bg-input" type="text" name="name" id="name" placeholder="Ton nom de famille">
-        </div>
-            <!-- cinquieme ligne + champ de saisie -->
-        <div class="form-button">
-            <label for="firstname">Prénom :</label>
-            <input class="bg-input" type="text" name="firstname" id="firstname" placeholder="Ton prénom">
-        </div>
-            <!-- sixieme ligne + champ de saisie -->
-        <div class="form-button">
-            <label for="phone">Numero de télephone :</label>
-            <input class="bg-input" type="text" name="phone" id="phone" placeholder="Ton numéro de télephone">
-        <!-- fermeture conteneur enfant -->
-        </div>
+
+
+
+
+
     
+
+
+
     </div>
-        <!-- ajout button envoyer avec class pour css -->
-        <input class="btn-form" type="submit" value="Envoyer">
-        </form> <!-- fin du formulaire-->
-    </section>
+
+
+
+
+        <!-- <section id="reservation">
+            <h2>Réservation</h2>
+            ajout conteneur enfant
+            <div class="formcss">
+            formulaire debut
+                <form method="get" action=""> 
+                    debut listing formulaire
+                    premier ligne + champ de saisie
+                <div class="form-button">
+                    <label for="numberpeople">Nombre de personnes :</label>
+                    <input class="bg-input" type="text" name="numberpeople" id="numberpeople" placeholder="Combien êtes vous?">
+                </div>
+                    deuxieme ligne + champ de saisie
+                <div class="form-button">
+                    <label for="date">Date :</label>
+                    <input class="bg-input" type="text" name="date" id="date" placeholder="ex:lundi 12 juillet">
+                </div>
+                    troisieme ligne + champ de saisie
+                <div class="form-button">
+                    <label for="hours">Horaire :</label>
+                    <input class="bg-input" type="text" name="hours" id="hours" placeholder="ex:15h00">
+                </div>
+                    quatrieme ligne + champ de saisie
+                <div class="form-button">
+                    <label for="name">Nom :</label>
+                    <input class="bg-input" type="text" name="name" id="name" placeholder="Ton nom de famille">
+                </div>
+                    cinquieme ligne + champ de saisie
+                <div class="form-button">
+                    <label for="firstname">Prénom :</label>
+                    <input class="bg-input" type="text" name="firstname" id="firstname" placeholder="Ton prénom">
+                </div>
+                    sixieme ligne + champ de saisie
+                <div class="form-button">
+                    <label for="phone">Numero de télephone :</label>
+                    <input class="bg-input" type="text" name="phone" id="phone" placeholder="Ton numéro de télephone">
+                fermeture conteneur enfant
+                </div>
+            
+            </div>
+                ajout button envoyer avec class pour css
+                <input class="btn-form" type="submit" value="Envoyer">
+                </form> fin du formulaire
+        </section> -->
+
 
     <!-- début section copyright -->
     <section id="legals" >
