@@ -95,40 +95,21 @@ header .overlay {
 
 /* Style A propos */
 
-#apropos h2 {
+.propos{
+    background-color: #900000;
+    padding: 3em;
+    padding-top: 2em;
+}
+#apropos .titreapropos{
+    width: 100%;
+    color: white;
     font-weight: 800;
     font-size: 2.5em;
     text-align: center;
     margin-top: 0;
 }
-#apropos .titre{
-    width: 100%;
-    color: white;
-}
-#apropos .propos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #900000;
-    padding: 3em;
-}
-#apropos .text_propos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 40%;
-}
 #apropos .image_propos{
-    width: 40%;
-    height: 400px;
-    margin-left: 3em;
-}
-#apropos .image_propos img{
     width: 100%;
-    height: 100%;
-    object-fit:cover;
     border-radius: 50px;
 }
 
