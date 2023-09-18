@@ -8,6 +8,7 @@ html{
 /* Style Navbar */
 header nav {
     padding: 1em 8em;
+    font-weight: 800;
 }
 header nav {
     display: flex;
@@ -19,7 +20,7 @@ header h5 {
     color: black;
     font-size: medium;
     font-weight: 800;
-    margin: 5px;
+    margin: 15px;
 }
 header .logo {
     display: flex;
@@ -50,7 +51,7 @@ header .btn-nav {
     color: white;
     border-radius: 2em;
     width: auto;
-    font-weight: 800;
+    font-weight: 200;
     padding: 0.5em 1em;
     font-size: 1em;
 }
@@ -95,40 +96,21 @@ header .overlay {
 
 /* Style A propos */
 
-#apropos h2 {
+.propos{
+    background-color: #900000;
+    padding: 3em;
+    padding-top: 2em;
+}
+#apropos .titreapropos{
+    width: 100%;
+    color: white;
     font-weight: 800;
     font-size: 2.5em;
     text-align: center;
     margin-top: 0;
 }
-#apropos .titre{
-    width: 100%;
-    color: white;
-}
-#apropos .propos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #900000;
-    padding: 3em;
-}
-#apropos .text_propos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 40%;
-}
 #apropos .image_propos{
-    width: 40%;
-    height: 400px;
-    margin-left: 3em;
-}
-#apropos .image_propos img{
     width: 100%;
-    height: 100%;
-    object-fit:cover;
     border-radius: 50px;
 }
 
@@ -199,51 +181,34 @@ header .overlay {
 
 /* Style Footer */
 #reservation {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     background-color: #900000;
-    width: 100%;
-    height: 40%;
-    padding-bottom:40px;
-    padding-top: 30px;;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#form{
-    width: 100% ;
-} 
 
 .formcss{
-    width: 40%;
-    text-align:start;
-    background-color:white;
-    border-radius: 30px;
-    padding: 50px;
-    color: black;
     font-weight:bold ;
-    margin:20px auto;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
-#legals{
+/* #legals{
     text-align: center;
     font-size: 0.8em;
     margin-bottom: 5em;
-
-}
-#reservation h2{
+} */
+#reservation h1{
     margin-bottom: 0;
-    font-size: 2.5em;
+    font-size: 3.5em;
     text-align: center;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
-div.form-button{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.button-form{
     height: 35px;
-}
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+} 
 footer .bg-input {
     width: 330px;
     background-color: #d9d9d9;
@@ -262,18 +227,16 @@ footer button{
     cursor: pointer;
     width: 100px;
 }
-.btn-form {
-    justify-content: center;
+.button-form {
     background-color: white;
-    border-radius: 30px;
     margin:0 auto;
     font-weight: bolder;
-    font-weight: 800;
-    padding: 0.5em 1em;
     font-size: 1em;    
+    border-radius: 30px;
     border: 0;
 }
-.btn-form:hover {
+
+.button-form:hover {
     background-color: #222222;
     color: #fff;
     transition: all 0.3s ease-out;
